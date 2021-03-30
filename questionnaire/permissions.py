@@ -12,3 +12,7 @@ class AnonCanGetList(permissions.BasePermission):
     def has_permission(self, request, view):
         return view.action == 'list' or request.user and request.user.is_authenticated
 
+# asjdkajdka
+# aksldakslda
+# skdlaskdlasdl
+# asdklaskd'a
